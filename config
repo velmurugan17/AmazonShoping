@@ -1,7 +1,7 @@
 {
   "credentials" : {
     "email" : "velmurugan.sw@gmail.com",
-    "password" :"********"
+    "password" :""
   },
   "amazon_site" : "https://www.amazon.in/",
   "driver":{
