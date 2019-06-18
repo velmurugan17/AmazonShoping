@@ -1,0 +1,11 @@
+{
+  "credentials" : {
+    "email" : "velmurugan.sw@gmail.com",
+    "password" :"********"
+  },
+  "amazon_site" : "https://www.amazon.in/",
+  "driver":{
+    "chrome":"./chromedriver"
+  }
+
+}
