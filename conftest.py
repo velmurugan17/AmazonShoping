@@ -17,6 +17,7 @@ def driver_init(request):
     config = load_config()
     chrome_driver = webdriver.Chrome(config["driver"]["chrome"])
     # Credentials can be handled better to avoid security issues
+    request.cls.username = config["credentials"]["username"]
     request.cls.email = config["credentials"]["email"]
     request.cls.password = config["credentials"]["password"]
     request.cls.config = config

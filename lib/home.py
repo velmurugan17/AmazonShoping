@@ -50,7 +50,12 @@ class Home:
             return False
 
     def get_current_signedin_user_name(self):
-        pass
+        try:
+            elements = self.driver.find_elements_by_xpath('//a[@id="nav-link-accountList"]/*')
+            return elements[0].text.split(' ')[1]
+        except:
+            return None
+
 
     def get_all_categories(self):
         pass

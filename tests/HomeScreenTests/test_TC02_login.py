@@ -1,7 +1,7 @@
 import pytest
 
 
-@pytest.mark.usefixtures("driver_init",'setup')
+@pytest.mark.usefixtures("driver_init","setup")
 class TestLogin:
 
     @pytest.fixture(scope='function')
