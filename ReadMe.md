@@ -2,7 +2,7 @@
 
 This project automates some of basic functionalities of amazon web store
 
-## Setup and Installation
+# Setup and Installation
 
 ## Chrome driver setup
 
