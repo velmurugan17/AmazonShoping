@@ -3,6 +3,7 @@ import json
 import logging
 from selenium import webdriver
 from lib.home import Home
+from lib.search import Search
 
 
 def load_config():
@@ -18,8 +19,10 @@ def driver_init(request):
     # Credentials can be handled better to avoid security issues
     request.cls.email = config["credentials"]["email"]
     request.cls.password = config["credentials"]["password"]
+    request.cls.config = config
     request.cls.driver = chrome_driver
     request.cls.home = Home(request.cls.driver)
+    request.cls.search = Search(request.cls.driver)
     yield
     chrome_driver.close()
     logging.info("closing the web driver")
