@@ -30,7 +30,7 @@ This project automates some of basic functionalities of amazon web store
 
 ###### config file update
 ```
-Update username,email,password and chromedriver path in config file 
+Update username,email,password and chromedriver path in config file
 ```
 
 ###### Test Execution
