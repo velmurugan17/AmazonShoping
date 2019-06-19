@@ -6,7 +6,7 @@ This project automates some of basic functionalities of amazon web store
 
 ## Chrome driver setup
 
-> This suit is configured to run in chromedriver.Check your current chrome browser version and download related driver https://chromedriver.storage.googleapis.com/index.html.Update config file with downloaded chromedriver path.
+> This suit is configured to run in chromedriver.Check your current chrome browser version and download related driver https://chromedriver.storage.googleapis.com/index.html .Update config file with downloaded chromedriver path.
 
 
 ```json
