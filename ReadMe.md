@@ -4,10 +4,10 @@ This project automates some of basic functionalities of amazon web store
 
 ## Setup and Installation
 
-###### Chrome driver setup
+## Chrome driver setup
 
 > This suit is configured to run in chromedriver.Check your current chrome browser version and download related driver.Update config file with chromedriver path.
-(https://chromedriver.storage.googleapis.com/index.html)
+https://chromedriver.storage.googleapis.com/index.html
 
 ```json
 "driver":{
@@ -15,10 +15,10 @@ This project automates some of basic functionalities of amazon web store
   }
 ```
 
-###### Python version
+## Python version
 > supports python 2.x and 3.x.Current suit is tested with 2.7.13
 
-###### Environment setup
+## Environment setup
 1. Create virtual envrionment `virtualenv <environment_name>`
 
 2. Activate virtual environment
@@ -28,12 +28,12 @@ This project automates some of basic functionalities of amazon web store
     * `pip install pytest`
     * `pip install selenium`
 
-###### config file update
+## config file update
 ```
 Update username,email,password and chromedriver path in config file
 ```
 
-###### Test Execution
+## Test Execution
 ```
 cd <path_to_repo>/AmazonShoping
 pytest --junit-xml=testResult.xml
