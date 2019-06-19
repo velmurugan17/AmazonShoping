@@ -7,9 +7,9 @@ This project automates some of basic functionalities of amazon web store
 create
 
 
-## Warning
+## Security Warning
 
-amazon may requests security verification during first time login.Login once before starting the test
+amazon may requests security verification during first time login.Login once and complete email verification before starting the test incase if any login error is seen during test suit running
 
 
 ## Testcases
