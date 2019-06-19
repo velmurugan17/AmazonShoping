@@ -55,10 +55,3 @@ class Home:
             return elements[0].text.split(' ')[1]
         except:
             return None
-
-
-    def get_all_categories(self):
-        pass
-
-    def select_category(self,index):
-        pass

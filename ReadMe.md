@@ -24,5 +24,5 @@ amazon may requests security verification during first time login.Login once bef
 | TC06 | Remove product from cart |
 | TC07 | Clear cart |
 | TC08 | Get current logged in user |
-| TC09 | Get all categories |
-| TC10 | Select first category |
+| TC09 | Get all major categories |
+| TC10 | Get all sub categories |

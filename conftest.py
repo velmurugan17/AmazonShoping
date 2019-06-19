@@ -4,6 +4,7 @@ import logging
 from selenium import webdriver
 from lib.home import Home
 from lib.search import Search
+from lib.category import Category
 
 
 def load_config():
@@ -24,6 +25,7 @@ def driver_init(request):
     request.cls.driver = chrome_driver
     request.cls.home = Home(request.cls.driver)
     request.cls.search = Search(request.cls.driver)
+    request.cls.category = Category(request.cls.driver)
     yield
     chrome_driver.close()
     logging.info("closing the web driver")
