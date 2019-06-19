@@ -8,7 +8,7 @@ class TestGetAllSubCategories:
 
     def test_tc10_get_all_sub_categories(self):
         """
-            TC10
+            TC10 : verify all sub categories in 'shop by categories' menu
         """
         logging.info("Get all sub categories test Started")
         assert self.category.select_shop_by_category()

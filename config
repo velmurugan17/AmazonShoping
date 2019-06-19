@@ -1,7 +1,8 @@
 {
   "credentials" : {
-    "email" : "velmurugan.sw@gmail.com",
-    "password" :""
+    "username"  : "testuser",
+    "email" : "dummyuser.1a2b3c@gmail.com",
+    "password" :"add password"
   },
   "amazon_site" : "https://www.amazon.in/",
   "driver":{
