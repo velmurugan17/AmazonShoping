@@ -25,8 +25,7 @@ This project automates some of basic functionalities of amazon web store
     * ubuntu/linux distribution : `source <environment_name>/bin/activate`
     * Windows                   : `<environment_name>\Scripts\activate`
 3. Install dependant packages.[use pip3 for py3 environment]
-    * `pip install pytest`
-    * `pip install selenium`
+    * `pip install --requirement requirements.txt`
 
 ## config file update
 ```
@@ -37,6 +36,7 @@ Update username,email,password and chromedriver path in config file
 ```
 cd <path_to_repo>/AmazonShoping
 pytest --junit-xml=testResult.xml
+pytest tests/CartTests/test_TC04_add_product_to_cart.py
 
 ```
 

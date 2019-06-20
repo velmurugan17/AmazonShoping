@@ -13,6 +13,7 @@ class TestClearCart:
     def test_tc07_clear_cart(self):
         """
             TC07 : clear cart
+            Note : ideally more validation should be done to ensure if the product is cart is empty.
         """
         logging.info("Clear cart test Started")
         assert self.cart.clear_cart()

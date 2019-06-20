@@ -13,6 +13,7 @@ class TestRemoveProductFromCart:
     def test_tc06_remove_product_from_cart(self):
         """
             TC06 : remove added product from cart
+            Note : ideally more validation should be done to ensure if the product is removed from cart.
         """
         logging.info("Add product to cart test Started")
         self.cart.navigate_to_cart()

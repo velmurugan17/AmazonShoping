@@ -9,6 +9,7 @@ class TestGetAllMajorCategories:
     def test_tc09_get_all_major_categories(self):
         """
             TC09 : verify the major categories in 'shop by categories' menu
+            Note : ideally more validation should be done to ensure if displayed categories are as expected and order of display
         """
         logging.info("Get all major Categories test Started")
         assert self.category.select_shop_by_category()
